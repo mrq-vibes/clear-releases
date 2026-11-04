@@ -1,11 +1,15 @@
 {
-  "version": "0.6.3",
-  "notes": "Clear 0.6.3. Offline mail, encrypted local storage, and optional image-activity tracking. This macOS Apple Silicon build is ad hoc signed and is not notarized.",
-  "pub_date": "2026-11-03T18:24:41Z",
+  "version": "0.6.6",
+  "notes": "Clear 0.6.6. Windows Claude and Codex sign-in runs under a kill-on-close job. Import a Google Desktop client JSON; this build does not include one. The Mac build is ad hoc signed and is not notarized. The Windows setup is not Authenticode signed.",
+  "pub_date": "2026-11-04T19:04:10Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQlo4cEdyREFndloxSFg1OC9nTmZoUCtrZ3JIOWxuc2dHL0pGc25rMi8zOWNIK0o1ZWVXM3pmbG4yNEhzZ0dRZFZ5NjY4UHJvQlhReFlYeE9KSXdwbEpkUzZSOE00c1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNzMwMjgxCWZpbGU6Q2xlYXIuYXBwLnRhci5negl2ZXJzaW9uOjAuNi4zCnFFYWptTVFoSmIzdVVIYUtEc2FaRTYweUhoMDh2eE5wVldOSERlUEF2Z2ZnNHFBeFVIczlmZjFYejFVYVNqclV3UUNVdzBPMFJ4OGNOTXI2MnNXa0NBPT0K",
-      "url": "https://github.com/mrq-vibes/clear-releases/releases/download/v0.6.3/Clear.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQlo4cEdyREFndlUrNW83bGpGaFJMd2ZiYWtqTzZjMk5pR3ltNzlUcEJBRVhxcnZQSGRtZXNqb3pvKzlNRHlaTW53SWV5SWNZNVIzWWQ5UGt3OXpVLzRGR2JMSFlMcEFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE3MzEzCWZpbGU6Q2xlYXIuYXBwLnRhci5negl2ZXJzaW9uOjAuNi42ClR3VW81MVZXM0k3OW85QjEwVnlvK3VkdmEzRnM3bm82dGw2MWZndXpDR2I3UXZPNXdpNTZNNjVTM1dpQW5HRGJGZGlxVzFXUXNQR3kyUE5BNk5QcURBPT0K",
+      "url": "https://github.com/mrq-vibes/clear-releases/releases/download/v0.6.6/Clear.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTQlo4cEdyREFndmIwazdacHFValZFc2lZQlNkMTJndUlHMkNEOVNFN1B3TGpZalJlQmVySzE5a21JclNKSkRNaTI3OExCOXJhRmJEMUJYN3NqRnVQb2RiNDlobE9wSUFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODE3MzY4CWZpbGU6Q2xlYXJfMC42LjZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNi42CmVGR0hYNUNsTGxCNUhRUDV6YjZaQkswMml5S3JKUDcxMkFXSHJKQXNjSUtTTU9zOERZMEc1Q0dMQStTNExLUGR0N1kyOHM0bDJPb1FGU1BqM1RRTEFBPT0K",
+      "url": "https://github.com/mrq-vibes/clear-releases/releases/download/v0.6.6/Clear_0.6.6_x64-setup.exe"
     }
   }
 }
